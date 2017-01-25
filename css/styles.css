@@ -1,0 +1,30 @@
+header{
+  font-family: 'https://fonts.googleapis.com/css?family=Indie+Flower', cursive;
+  text-align: center;
+  background-image: url(../assets/blackLeather.jpg);
+  height: 100px;
+  padding: 40px;
+  color: orange;
+}
+
+body{
+  background-color: #277714;
+  margin: 0px;
+}
+
+.container, .container2{
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.card{
+  width: 50px;
+  flex-grow: 2;
+  flex-shrink: 2;
+}
