@@ -24,61 +24,12 @@ body{
 }
 
 #card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8{
-  flex: 2, 2, 150px;
-  flex-grow: 2;
-  flex-shrink: 2;
+  flex-basis: auto;
+  height: 300px;
+  width: 150px;
+  background-image: url(./assets/cardBack.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
 
-#card1{
-  background-image: url(./assets/cardBack.jpg);
-  animation-name: flip;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-}
-#card2{
-  background-image: url(./assets/cardBack.jpg);
-  animation-name:;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-}
-#card3{
-  background-image: url(./assets/cardBack.jpg);
-  animation-name:;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-}
-#card4{
-  background-image: url(./assets/cardBack.jpg);
-  animation-name:;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-}
-#card5{
-  background-image: url(./assets/cardBack.jpg);
-  animation-name:;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-}
-#card6{
-  background-image: url(./assets/cardBack.jpg);
-  animation-name:;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-}
-#card7{
-  background-image: url(./assets/cardBack.jpg);
-  animation-name:;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-}
-#card8{
-  background-image: url(./assets/cardBack.jpg);
-  animation-name:;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-}
-
-@keyframes flip{
-  0%{transform: rotateY(0deg);}
-  100%{transform: rotateY(180deg);}
-}
